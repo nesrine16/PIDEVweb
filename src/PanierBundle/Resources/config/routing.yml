@@ -1,0 +1,11 @@
+panier_homepage:
+    path:     /
+    defaults: { _controller: PanierBundle:Default:index }
+
+
+addfamille:
+    path:     /addfamille
+    defaults: { _controller: PanierBundle:Famille:add }
+del_famille:
+     path:     /delete_famille/{codeFamille}
+     defaults: { _controller: PanierBundle:Famille:delFamille}
